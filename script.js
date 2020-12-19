@@ -1,4 +1,4 @@
-//user input variable
+//Create a variable named 
 var enter='';
 var confirmNumber;
 var confirmCharacter;
