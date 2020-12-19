@@ -25,11 +25,11 @@ generateBtn.addEventListener("click", function () {
     // assign generated password to Password text area
     document.getElementById("password").placeholder = password;
 });
-//function to generate password
-function generatePassword() {
+    //function to generate password
+    function generatePassword() {
     //'enter' stores users input (ie. 15)
     passwordLength = parseInt(prompt("How many character you like for your password? choose between 8 to 128"));
-    // console.log(enter)
+    
     if (!passwordLength) {
         alert("This needs a value");
         return "You must enter password length between 8 and 128. Please try again!"; 
