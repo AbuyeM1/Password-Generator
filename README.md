@@ -1,29 +1,44 @@
-# 03 JavaScript: Password Generator
+# Password Generator
 
-  ## Image shows the web application's appearance and functionality:
+## Table of Contents
 
-    ![alt text](https://lh3.googleusercontent.com/wpx2Vw66YujTxFrjZmtShGycKEQ7aUZihZzV2MoeXLw2x4S1DV0rr82Le19n6gOd6ZHQ9g=s400)
-    ![alt text](https://lh3.googleusercontent.com/ACUPL9TnrseARbEcT1pk9H1-28f0iyqQGOSowaLkQW4Sf1uui_J3VZeI6U_rpTGOgBw3=s400)
-    ![alt text](https://lh3.googleusercontent.com/AI3agBVTWI9JKzNZTAUFnCCoKEWbl_jlIJ6jnQ2ECTp305uaCw-Aob-OOm5u57x5BoCDsw=s400)
-    ![alt text](https://lh3.googleusercontent.com/AI3agBVTWI9JKzNZTAUFnCCoKEWbl_jlIJ6jnQ2ECTp305uaCw-Aob-OOm5u57x5BoCDsw=s400)
+- [Description](#description)
 
-   ## Tecnologies Used
+- [Deployed Link](#deployed-link)
 
-    * HTML
-    * CSS
-    * JavaScript
+- [Repository](#Repository)
 
-  ## Summary
+- [TechnonlogyUse](#Technonlogy-Use)
 
-    This rundomly  password generator Responsive web application.
-    also has from 8 to 128 different Character ,numbers and uppercase alphs and lowercase alphs.
+- [CodeSnippets](#CodeSnippets)
 
+- [License](#license)
 
+- [Question](#Question)
 
+## Description
 
+This rundomly password generator Responsive web application. also has from 8 to 128 different Character numbers and uppercase alphs and lowercase alphs.
 
-  ## Code Snippet 
-    
+## Image
+
+![image](./Assets/03-javascript-homework-demo.png)
+
+## Deployed Link
+
+- https://abuyem1.github.io/Password-Generator/
+
+## Repository
+
+- Open The Browsers
+
+# Tecnologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Code Snippet
 
     //user input variable
     var enter='';
@@ -38,20 +53,20 @@
     upperCase = [];
 
 
-     //If user chooses 0 criterias 
+     //If user chooses 0 criterias
     if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
     choices = alert("You must choose at least 1 criteria. Please try again!");
-    return "You must choose at least 1 criteria. Please try again!"; 
+    return "You must choose at least 1 criteria. Please try again!";
     }
-  
-  
+
+
     else {
-    //If user chooses all 4 criterias 
+    //If user chooses all 4 criterias
     if (confirmCharacter && confirmNumber && confirmUppercase && confirmLowercase) {
       choices = character.concat(number,lowerCase,upperCase);
     }
-    
-    
+
+
     //if user chooses characters, numbers and lower case letters but not upper case letters
     else if (confirmCharacter && confirmNumber && confirmLowercase) {
         choices = character.concat(number,lowerCase);
@@ -61,44 +76,21 @@
       choices = character.concat(number,upperCase);
     }
 
+## License
 
+![badge](https://shields.io/badge/license-MIT-green)
 
-  ## Author Links
-      
-    * [GitHub](https://github.com/AbuyeM1)
-    * [GitHub](https://abuyem1.github.io/Password-Generator/)
- 
+## Question
 
+- [Email](abuye20@yahoo.com)
 
+- [LinkedIn](https://www.linkedin.com/in/abuye-mamuye-5a49921b0/)
 
+- [GitHub](https://github.com/AbuyeM1)
 
+## Acknowledgments
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Jerome Chenette (Instructor)
+- Manuel Nunes (TA)
+- Mahisha Manikandan (TA)
+- UC Berkeley Coding Bootcamp
